@@ -2,7 +2,87 @@
     &__top
         display: flex
         justify-content: space-between
-        padding-top: 27px
+        padding-top: 20px
+    &__content
+        background-image: url(../images/background.png)
+        background-size: cover
+        background-position: top
+        background-repeat: no-repeat
+        padding-bottom: 20px
+        margin-top: -80px
+        min-height: 100ov
+        &-btn
+            font-family: 'Roboto Slab', serif
+            font-style: normal
+            font-weight: bold
+            font-size: 24px
+            line-height: 32px
+            color: #FFFFFF
+            padding: 14px 88px
+            border-radius: 20px
+            background-color: rgba(255,255,255,.5)
+            margin-left: 112px
+            display: inline-block
+            transform: translateY(-100px)
+            position: absolute
+        &-box
+            display: flex
+            margin-left: 100%
+            margin-right: 30px
+            font-size: 18px
+            line-height: 21px
+            color: #FFFFFF
+        &-link
+            &--active
+                font-weight: 700
+.header-slider
+    max-width: 522px
+    padding-left: 112px
+    padding-top: 57px
+    padding-bottom: 135px
+    position: relative
+    &__text
+        margin-bottom: 25px
+        font-size: 18px
+        line-height: 120%
+        color: #FFFFFF
+    &__arrow
+        background-color: transparent
+        border: none
+        cursor: pointer
+        padding: 0
+        &-prev
+            position: absolute
+            left: 40px
+            top: 0
+        &-next
+            position: absolute
+            left: 40px
+            bottom: 0
+    &__numbers
+        list-style: none
+        position: absolute
+        top: 58px
+        left: 35px
+        bottom: 55px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    &__numbers button
+        border: none
+        background-color: transparent
+        padding: 0
+        font-size: 24px
+        line-height: 28px
+        color: #FFFFFF
+        opacity: 0.5
+        cursor: pointer
+    // &__numbers button > .active
+    //     opacity: 1
+    &__numbers button::before
+        content: "0"
+    &__numbers li:nth-child(n + 10) button::before
+        content: ""
 .logo
     margin-left: 16px
 .phone
@@ -21,4 +101,4 @@
         line-height: 21px
         color: #001E64
     &__link:hover
-        border-bottom: 1px solid #001E64
+        border-bottom: 3px solid #001E64
