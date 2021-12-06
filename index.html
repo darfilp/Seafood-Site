@@ -48,7 +48,7 @@
           <button class="header-slider__arrow header-slider__arrow-prev"><img src="images/arrow-prev.svg" alt="arrow"></button>
           <button class="header-slider__arrow header-slider__arrow-next"><img src="images/arrow-next.svg" alt="arrow"></button>
           <ul class="header-slider__numbers">
-            <li class="header-slider__number"><button class="header-slider__click">1</button></li>
+            <li class="header-slider__number"><button class="header-slider__click header-slider__click--active">1</button></li>
             <li class="header-slider__number"><button class="header-slider__click">2</button></li>
             <li class="header-slider__number"><button class="header-slider__click">3</button></li>
             <li class="header-slider__number"><button class="header-slider__click">4</button></li>
@@ -58,22 +58,22 @@
             <p class="header-slider__text">Норвежские морепродукты уникальны, потому что они выращиваются экологически рациональным образом, основываясь на знаниях и опыте многих поколений, заботясь об океане и будущих поколениях.</p>
             <p class="header-slider__text">Ежедневно во всем мире подают несколько миллионов норвежских блюд из морепродуктов.</p>
           </div>
-          <!-- <div class="header-slider__item">
-            <p class="header-slider__text">Норвежские морепродукты уникальны, потому что они выращиваются экологически рациональным образом, основываясь на знаниях и опыте многих поколений, заботясь об океане и будущих поколениях.</p>
-            <p class="header-slider__text">Ежедневно во всем мире подают несколько миллионов норвежских блюд из морепродуктов.</p>
+          <div class="header-slider__item">
+            <p class="header-slider__text">Сегодня Норвегия занимает второе место в мире по объему экспорта рыбы. В мире ежедневно потребляется количество норвежской рыбы, эквивалентное 37 миллионам порций. Так что вполне вероятно, что вы уже пробовали норвежские морепродукты, хотя, возможно, и не подозревали об этом.</p>
+            <p class="header-slider__text"> На больших рыбных рынках можно найти мидии, гребешки, лангустов, крабов, а также различные виды рыбы.</p>
+          </div>
+          <div class="header-slider__item">
+            <p class="header-slider__text">Ежегодно проходящий в марте на Лофотенах Чемпионат мира по ловле трески привлекает как опытных, нацеленных на рекордный улов рыбаков, так и любителей, которые приезжают насладиться особой атмосферой.</p>
+            <p class="header-slider__text">Девяносто процентов всех норвежцев проживает вдоль побережья. Если вытянуть норвежское побережье в линию, она получится длиннее, чем окружность экватора.</p>
+          </div>
+          <div class="header-slider__item">
+            <p class="header-slider__text">Арктическая нерестовая треска (skrei – «скрей») – это уникальный сезонный вид трески, который из Баренцева моря мигрирует на нерест к берегам Северной Норвегии.</p>
+            <p class="header-slider__text">Только лучшим особям, соответствующим строгим критериям, присваивают звание «скрей».</p>
           </div>
           <div class="header-slider__item">
             <p class="header-slider__text">Норвежские морепродукты уникальны, потому что они выращиваются экологически рациональным образом, основываясь на знаниях и опыте многих поколений, заботясь об океане и будущих поколениях.</p>
             <p class="header-slider__text">Ежедневно во всем мире подают несколько миллионов норвежских блюд из морепродуктов.</p>
           </div>
-          <div class="header-slider__item">
-            <p class="header-slider__text">Норвежские морепродукты уникальны, потому что они выращиваются экологически рациональным образом, основываясь на знаниях и опыте многих поколений, заботясь об океане и будущих поколениях.</p>
-            <p class="header-slider__text">Ежедневно во всем мире подают несколько миллионов норвежских блюд из морепродуктов.</p>
-          </div>
-          <div class="header-slider__item">
-            <p class="header-slider__text">Норвежские морепродукты уникальны, потому что они выращиваются экологически рациональным образом, основываясь на знаниях и опыте многих поколений, заботясь об океане и будущих поколениях.</p>
-            <p class="header-slider__text">Ежедневно во всем мире подают несколько миллионов норвежских блюд из морепродуктов.</p>
-          </div> -->
         </div>
         <a href="#" class="header__content-btn">ВЫБРАТЬ</a>
         <div class="header__content-box">
@@ -84,7 +84,231 @@
 
     </div>
   </header>
+  <main class="main">
+    <section class="product">
+      <div class="container">
+        <div class="product__inner">
+          <div class="product__name">
+            <ul class="product__menu">
+              <button class="product__button-prev"><img src="images/arrow2-prev.svg" alt="arrow"></button>
+              <li class="product__menu-item">Треска</li>
+              <li class="product__menu-item">Лосось</li>
+              <li class="product__menu-item">Скумбрия</li>
+              <li class="product__menu-item">Голубая мидия</li>
+              <li class="product__menu-item product__menu-item--active">Коричневый краб</li>
+              <li class="product__menu-item">Осьминог</li>
+              <button class="product__button-next"><img src="images/arrow2-next.svg" alt="arrow"></button>
+              <!-- <li class="product__menu-item">Плотва</li>
+              <li class="product__menu-item">Карп</li>
+              <li class="product__menu-item">Красная икра</li> -->
+            </ul>
+          </div>
+          <div class="product__content">
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок<br>
+                  витамин B12<br>
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <!-- <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div>
+            <div class="product__content-element">
+            <div class="product__content-box">
+              <img src="images/crab.png" alt="krab" class="product__content-img">
+              <ul class="product__content-list">
+                <li class="product__content-item"><span>Сезон</span>Круглый год, но лучше всего осенью.
+        </li>
+                <li class="product__content-item"><span>Диапазон улова</span>Вдоль норвежского побережья.</li>
+                <li class="product__content-item"><span>Питательные вещества</span>белок
+                  витамин B12
+                  селен</li>
+              </ul>
+            </div>
+            <h3 class="product__content-title">Brown crab</h3>
+            <p class="product__content-text">Чтобы поймать коричневых крабов, вам не понадобится больше, чем фонарик и быстрые рефлексы - последнее, что видят коричневые крабы, - это вспышка и стреляющая рука. Но вы должны действовать быстро: через секунду или две краб понимает, что происходит, и использует свои когти, чтобы ущипнуть Вас изо всех сил, и он не отпустит Вас легко. Таким образом, ловля крабов не только обеспечивает вкусную еду, но и вызывает выброс адреналина.</p>
+            <button class="product__content-btn">ЗАКАЗАТЬ</button>
+            </div> -->
+          </div>
+        </div>
+      </div>
 
+    </section>
+    <div class="seafood">
+      <div class="container">
+        <div class="seafood__items">
+          <div class="seafood__item">Уникальное разнообразие</div>
+          <div class="seafood__item">Экологическое потребление</div>
+          <div class="seafood__item">Лучшее качество</div>
+          <div class="seafood__item">Идеальные условия для выращивания</div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="container">
+        <div class="content__items">
+          <div class="content__item">
+          <div class="content__item-content">
+            <h2 class="content__item-title">Экстремальные условия для человека. Идеальные условия для рыб.</h2>
+            <p class="content__item-text">Гольфстрим, несущий теплую воду из Мексиканского залива через Атлантический океан, течет на север вдоль норвежского побережья в прозрачную, чистую ледяную воду Арктики. Это создает идеальные условия для невероятно богатой морской экосистемы. </p>
+            <p class="content__item-text">Мелкая рыба, большая рыба, моллюски и другие формы жизни. Некоторые из них - местное население, другие - мигрируют или проеплывают через земной шар. Некоторые предпочитают холодное открытое море, другие живут в тихих глубоких фьордах, защищенных стеной островов и шхер. Каждый из них играет свою роль в сложном и увлекательном морском жизненном цикле.
+</p>
+            <p class="content__item-text">Разнообразие морепродуктов из этой среды уникально. Это одна из основных причин, почему Норвегия является вторым по величине экспортером морепродуктов в мире. И есть также причина, по которой повара и знатоки всего мира выбирают морепродукты из Норвегии: вам будет сложно найти такой же выбор и качество где-либо еще.</p>
+          </div>
+          <img src="images/article1.jpg" alt="#" class="content__item-img">
+        </div>
+
+        <div class="content__item content__item-right">
+          <img src="images/article2.jpg" alt="#" class="content__item-img">
+          <div class="content__item-content">
+            <h2 class="content__item-title">Лучшее качество морепродуктов</h2>
+            <p class="content__item-text">Норвежские морепродукты - это качественные морепродукты, и мы рады ими поделиться. 
+            Вот почему нашими морепродуктами наслаждаются во всем мире. Международное значение этой отрасли наглядно демонстрирует тот факт, что норвежские морепродукты путешествуют примерно в 150 стран. Мы второй по величине экспортер морепродуктов в мире.</p>
+          </div>
+        </div>
+
+        <div class="content__item">
+          <div class="content__item-content">
+            <h2 class="content__item-title">Экологическое потребление</h2>
+            <p class="content__item-text">Великолепная прибрежная природа Норвегии и разнообразие жизни, которое она поддерживает, - это основа нашего существования с каменного века. Мы знаем, что обязаны передать это будущим поколениям. Море - это дар, который продолжает дарить, но только до тех пор, пока мы продолжаем уважать его и бережно относимся к тому, что нам было дано.
+</p>
+            <h2 class="content__item-title">Идеальные условия выращивания</h2>
+            <p class="content__item-text">Норвегия имеет одну из самых передовых и хорошо зарекомендовавших себя систем устойчивого развития и управления как в рыболовстве, так и в аквакультуре. Это не случайность, а систематическая работа на всех уровнях, обеспечивающая безопасность потребителей и благополучие рыб. 
+</p>
+            <p class="content__item-text">Большой упор на благополучие животных и строгие правила означают, что наши морепродукты неизменно высокого качества и безопасны для употребления. Производство является экологически безопасным и ответственным, оставляя минимальный след на окружающую среду.</p>
+          </div>
+          <img src="images/article3.jpg" alt="#" class="content__item-img">
+        </div>
+        </div>
+        <blockquote class="content__blockquote">
+          <img src="images/fish.png" alt="fish" class="content__blockquote-img">
+          <p class="content__blockquote-text">Вы получаете самые лучшие морепродукты <br>
+            Неважно, что это за морепродукты, потому что они норвежские, <br>
+            а значит - самого лучшего качества.</p>
+        </blockquote>
+      
+        </div>
+    </div>
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
