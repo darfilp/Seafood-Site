@@ -3,6 +3,8 @@ window.addEventListener('DOMContentLoaded', () => {
     const $tabsContent = document.querySelectorAll('.header-slider__item');
     const $tabsParent = document.querySelector('.header-slider__numbers');
     const $arrows = document.querySelectorAll('.header-slider__arrow');
+    const $menuBtn = document.querySelector('.menu__btn');
+    const $menuList = document.querySelector('.menu__list');
 
 
     function hideTabContent() {
@@ -32,5 +34,9 @@ window.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }
+    });
+
+    $menuBtn.addEventListener('click', () => {
+        $menuList.classList.toggle('menu__list--active');
     });
 });
